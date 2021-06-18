@@ -6,10 +6,12 @@ export default function About() {
             <div className="left">
                 <h2>About</h2>
                 <ul className="info">
-                    <li>Occupation:<span>Freelancer Web Developer</span></li>
-                    <li>Experience:<span>4 years</span></li>
+                    <li>Occupation:<span>Graphic Developer</span></li>
+                    <li>Experience:<span>2 years</span></li>
                     <li>Location:<span>Oujda, Morocco</span></li>
-                    <li>Age:<span>20 years old</span></li>
+                    <li>Age:<span>21 years old</span></li>
+                    <br/>
+                    <li>About me:<span>I am a professional graphic designer and have been working in this field for 3 years.</span></li>
                 </ul>
             </div>
             <div className="mid">

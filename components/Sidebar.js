@@ -3,54 +3,48 @@ import Image from 'next/image'
 
 const links = [
     {
-        "title": "github",
-        "icon": "i-github",
-        "link": "https://github.com/afaithraf",
-        "color": "#333"
-    },
-    {
         "title": "linkedin",
         "icon": "i-linkedin",
-        "link": "https://www.linkedin.com/in/afaithraf/",
+        "link": "https://www.linkedin.com/",
         "color": "#0e76a8"
     },
     {
         "title": "instagram",
         "icon": "i-instagram",
-        "link": "https://www.instagram.com/afaithraf/",
+        "link": "https://www.instagram.com/hichamtloh/",
         "color": "#C13584"
     },
     {
         "title": "facebook",
         "icon": "i-facebook2",
-        "link": "https://www.facebook.com/afaithraf",
+        "link": "https://www.facebook.com/hichamtloh",
         "color": "#3b5998"
     },
     {
         "title": "twitter",
         "icon": "i-twitter",
-        "link": "https://twitter.com/afaithraf",
+        "link": "https://twitter.com/hichamtloh",
         "color": "#1DA1F2"
     },
     {
-        "title": "dribbble",
-        "icon": "i-dribbble",
-        "link": "https://dribbble.com/afaithraf",
-        "color": "#ea4c89"
+        "title": "behance",
+        "icon": "i-behance2",
+        "link": "https://behance.net/hasnichakroun",
+        "color": "#0057ff"
     }
 ];
 const otherLinks = [
     {
-        "title": "achraf.org",
-        "link": "//achraf.org"
+        "title": "Upwork.com",
+        "link": "//www.upwork.com/freelancers/~01036dd6fd4fff2ffd/"
     },
     {
-        "title": "afaithraf@gmail.com",
-        "link": "mailto:afaithraf@gmail.com"
+        "title": "hichamtloh222@gmail.com",
+        "link": "mailto:hichamtloh222@gmail.com"
     },
     {
-        "title": "+212-634516342",
-        "link": "tel:+212634516342"
+        "title": "+212-604410149",
+        "link": "tel:+212604410149"
     }
 ];
 export default function Sidebar() {
@@ -59,10 +53,10 @@ export default function Sidebar() {
             <div className="portrait">
                 <Image height="400" width="400" alt="achraf's portrait" src="/images/me.jpg" />
             </div>
-            <h1>Achraf El Ghinoussi</h1>
-            <h2>Front-end / Full-Stack Developer </h2>
+            <h1>Hicham Tloh</h1>
+            <h2>Graphic Designer </h2>
             <p className="para">
-                "I don't just build websites, I build websites that IMPRESS."
+                "Design is so Simple.<br/> That's why it's so Complicated"
             </p>
             <div className="links">
                 {links.map((e, i) =>
@@ -104,6 +98,7 @@ export default function Sidebar() {
                 .para{
                     margin: 30px 0;
                     font-size: 1.2em;
+                    line-height: 1.3;
                 }
                 .links{
                     margin: 6px 10px;
